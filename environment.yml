@@ -1,0 +1,11 @@
+name: deep-android
+channels:
+  - defaults
+  - pytorch
+  - nvidia
+dependencies:
+  - python=3.10
+  - pip>22.1
+  - pytorch
+  - torchvision
+  - pytorch-cuda=11.6
